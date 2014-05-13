@@ -8,7 +8,7 @@ class Main extends CI_Controller {
 	{
 		parent::__construct();
 		//TODO Application interface language
-		//TODO Environment props
+		//TODO Environment props, cookies
 		$this->load->model('modMain');
 		
 		//Load Template Parser library
